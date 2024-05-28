@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		800DEB062C05911D00A51EF9 /* EditCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800DEB052C05911D00A51EF9 /* EditCards.swift */; };
 		80BE5C732BFC65AD00F24561 /* MemoryCardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BE5C722BFC65AD00F24561 /* MemoryCardApp.swift */; };
 		80BE5C752BFC65AD00F24561 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BE5C742BFC65AD00F24561 /* ContentView.swift */; };
 		80BE5C772BFC65AF00F24561 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80BE5C762BFC65AF00F24561 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		800DEB052C05911D00A51EF9 /* EditCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditCards.swift; sourceTree = "<group>"; };
 		80BE5C6F2BFC65AD00F24561 /* MemoryCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemoryCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80BE5C722BFC65AD00F24561 /* MemoryCardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryCardApp.swift; sourceTree = "<group>"; };
 		80BE5C742BFC65AD00F24561 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 				80BE5C722BFC65AD00F24561 /* MemoryCardApp.swift */,
 				80BE5C742BFC65AD00F24561 /* ContentView.swift */,
 				80F797312C036D110065CE26 /* CardView.swift */,
+				800DEB052C05911D00A51EF9 /* EditCards.swift */,
 				80F7972F2C036C630065CE26 /* Card.swift */,
 				80BE5C762BFC65AF00F24561 /* Assets.xcassets */,
 				80BE5C782BFC65AF00F24561 /* Preview Content */,
@@ -146,6 +149,7 @@
 				80BE5C752BFC65AD00F24561 /* ContentView.swift in Sources */,
 				80F797302C036C630065CE26 /* Card.swift in Sources */,
 				80F797322C036D110065CE26 /* CardView.swift in Sources */,
+				800DEB062C05911D00A51EF9 /* EditCards.swift in Sources */,
 				80BE5C732BFC65AD00F24561 /* MemoryCardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,7 +283,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Flashzilla/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"MemoryCard/Preview Content\"";
 				DEVELOPMENT_TEAM = A72Y6HK3LJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -308,7 +312,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Flashzilla/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"MemoryCard/Preview Content\"";
 				DEVELOPMENT_TEAM = A72Y6HK3LJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
